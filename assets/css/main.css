@@ -3128,7 +3128,7 @@
 			}
 
 		#header .logo {
-			font-family: 'Pacifico', cursive;
+			font-family: inherit;
 			display: inline-block;
 			height: inherit;
 			left: 0;
@@ -3140,7 +3140,7 @@
 			color: #e5474b;
 			font-size: 1.75em;
 			text-transform: none;
-			font-weight: normal;
+			font-weight: bold;
 			padding: 0;
 		}
 
@@ -3986,3 +3986,8 @@
 	border-color: black;
 	padding: 15px;
 }
+
+/*
+.special {
+	text-align: center;
+}*/
