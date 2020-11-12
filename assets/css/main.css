@@ -3094,16 +3094,16 @@
 
 	body {
 		position: relative;
-		padding-top: 5em;
+		padding-top: 3.8em; /*3.8 maybe good*/
 	}
 
 	#header {
 		background: #1c1c1c;
 		color: #d5d5d5;
 		cursor: default;
-		height: 5em;
+		height: 3.8em;
 		left: 0;
-		line-height: 5em;
+		line-height: 3.8em;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -3985,6 +3985,15 @@
 	border-radius: 4px;
 	border-color: black;
 	padding: 15px;
+}
+
+.anchor {
+	text-decoration: none;
+	padding-top: 100px;
+}
+
+.anchor:hover {
+	text-decoration: none;
 }
 
 /*
