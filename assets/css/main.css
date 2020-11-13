@@ -2540,7 +2540,7 @@
 
 	header p {
 		position: relative;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 2em 0;
 	}
 
 	header h2 + p {
@@ -3576,7 +3576,7 @@
 /* Main */
 
 	#main {
-		padding: 4em 0 2em 0;
+		padding: 2.5em 0 2em 0;
 	}
 
 	#one {
@@ -3602,7 +3602,7 @@
 		#one h1 {
 			text-transform: none;
 			text-align: center;
-			padding-bottom: 1.7em;
+			padding-bottom: 1.5em;
 		}
 
 	#two {
@@ -3984,7 +3984,7 @@
 	border-width: 1px;
 	border-radius: 4px;
 	border-color: black;
-	padding: 15px;
+	padding: 30px 15px 0px 15px;
 }
 
 .anchor {
