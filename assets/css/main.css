@@ -3996,6 +3996,11 @@
 	text-decoration: none;
 }
 
+
+a:hover {
+	text-decoration: none;
+	color: #a7373a;
+}
 /*
 .special {
 	text-align: center;
