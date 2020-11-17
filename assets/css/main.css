@@ -1661,7 +1661,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
-		line-height: 0.8; /*previously 1.5*/
+		line-height: 1.1; /*previously 1.5*/
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
 	}
@@ -3994,6 +3994,7 @@
 
 .anchor:hover {
 	text-decoration: none;
+	color: #e5474b;
 }
 
 
