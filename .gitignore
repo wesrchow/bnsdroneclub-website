@@ -1,2 +1,5 @@
 # ignoring workspace
 .idea/workspace.xml
+
+# other general stuff
+.idea/codeStyles/
