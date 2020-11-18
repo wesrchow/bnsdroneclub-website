@@ -3203,10 +3203,10 @@
 	.navPanelToggle {
 		position: fixed;
 		text-decoration: none;
-		height: 4em;
+		height: 3em; /*previously 4em*/
+		width: 3em; /*previously 4em*/
 		right: 3em;
-		top: .75em;
-		width: 4em;
+		top: .4em; /*previously .75*/
 		display: none;
 		z-index: 10002;
 	}
@@ -3256,7 +3256,7 @@
 			position: absolute;
 			text-align: center;
 			top: 0.5em;
-			width: 3.5em;
+			width: 2.2em; /*previously 3.5em*/
 		}
 
 	#navPanel {
@@ -3266,7 +3266,7 @@
 		transform: translatex(20em);
 		-moz-transition: -moz-transform 0.2s ease-in-out, visibility 0.2s ease-in-out;
 		-webkit-transition: -webkit-transform 0.2s ease-in-out, visibility 0.2s ease-in-out;
-		-ms-transition: -ms-transform 0.2s ease-in-out, visibility 0.2s ease-in-out;
+		-ms-transition: -ms-transform 0.2s ease-in-out, visibility 	0.2s ease-in-out;
 		transition: transform 0.2s ease-in-out, visibility 0.2s ease-in-out;
 		-webkit-overflow-scrolling: touch;
 		visibility: hidden;
@@ -3279,7 +3279,7 @@
 		height: 100%;
 		max-width: 80%;
 		width: 20em;
-		padding: 1.5em;
+		padding: 5em 1.5em 1.5em 1.5em; /*previously 1.5em*/
 		text-transform: uppercase;
 		z-index: 10003;
 		display: none;
@@ -3299,7 +3299,7 @@
 			color: #fff;
 			font-weight: 700;
 			display: block;
-			padding: 0.75em 0;
+			padding: 1.25em 0; /*previously .75em 0*/
 			text-decoration: none;
 		}
 
@@ -3318,14 +3318,14 @@
 			color: #484848;
 			cursor: pointer;
 			display: block;
-			height: 4em;
-			padding-right: 1.25em;
+			height: 3em; /*previously 4em*/
+			width: 3em; /*previously 5em*/
+			padding: 1.8em; /*padding-right previously 1.25em*/
 			position: absolute;
 			right: 0;
 			text-align: right;
 			top: 0;
 			vertical-align: middle;
-			width: 5em;
 		}
 
 			#navPanel .close:before {
@@ -3341,8 +3341,8 @@
 				line-height: 3em;
 				display: block;
 				position: absolute;
-				right: 0;
-				top: 0;
+				right: 0.5em; /*previously 0*/
+				top: 0.5em; /*previously 0*/
 				text-align: center;
 			}
 
