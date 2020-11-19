@@ -19,11 +19,12 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/barba-app.css">
 </head>
 
 <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
 
-<body>
+<body data-barba="wrapper">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TK6L6MM"
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -43,6 +44,7 @@
 </header>
 <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
+<div data-barba="container">
 <!-- Main -->
 <section id="main">
     <div class="inner">
@@ -107,17 +109,21 @@
         <br>
 
         <div class="copyright">
-            <!--Made by Wes Chow <br/>-->
-            Based on the <a href="https://templated.co/introspect" target="_blank">introspect</a> template.
+            Made by Wes Chow<br>
+            Based on the <a href="https://templated.co/introspect" target="_blank">introspect</a> template
         </div>
     </div>
 </section>
+</div>
 
 <!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://unpkg.com/@barba/css"></script>
+<script src="assets/js/barba-app.js"></script>
 
 </body>
 </html>

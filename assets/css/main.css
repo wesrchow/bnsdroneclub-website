@@ -3997,11 +3997,15 @@
 	color: #e5474b;
 }
 
-
 a:hover {
 	text-decoration: none;
 	color: #a7373a;
 }
+
+/*#header .active-page {
+	color: #e5474b;
+}*/
+
 /*
 .special {
 	text-align: center;

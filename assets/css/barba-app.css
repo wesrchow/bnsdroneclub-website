@@ -1,0 +1,14 @@
+/* Fade out, fade in */
+/* Fade out current container */
+.fade-leave,
+.fade-enter-to {
+    opacity: 1;
+}
+.fade-leave-active,
+.fade-enter-active {
+    transition: opacity 0.3s ease;
+}
+.fade-leave-to,
+.fade-enter {
+    opacity: 0;
+}
