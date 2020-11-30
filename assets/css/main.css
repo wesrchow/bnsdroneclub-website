@@ -4002,6 +4002,14 @@ a:hover {
 	color: #a7373a;
 }
 
+p b {
+	font-weight: 500;
+}
+
+.bolder-bold {
+	font-weight: 600;
+}
+
 /*#header .active-page {
 	color: #e5474b;
 }*/
