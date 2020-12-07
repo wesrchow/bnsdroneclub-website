@@ -4004,12 +4004,12 @@ a:hover {
 }
 
 p b {
-	font-weight: 500;
-}
-
-.bolder-bold {
 	font-weight: 600;
 }
+
+/*.bolder-bold {
+	font-weight: 600;
+}*/
 
 .footer-links-container {
 	text-align: left;
@@ -4019,6 +4019,10 @@ p b {
 	margin: auto;
 	padding-top: 10px;
 	padding-left: 32px;
+}
+
+.hidden-announcements {
+	display: none;
 }
 
 /*#header .active-page {
