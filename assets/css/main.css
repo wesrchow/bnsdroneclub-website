@@ -4025,6 +4025,30 @@ p b {
 	display: none;
 }
 
+.status-message {
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	height: 79px;
+	width: 200px;
+
+	font-size: 11pt;
+	line-height: 23px;
+
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	border-color: black;
+
+	background-color: rgba(255, 255, 255, 0.22);
+	opacity: 80%;
+}
+
+.status-message p {
+	margin: 0;
+	padding: 3px;
+}
+
 /*#header .active-page {
 	color: #e5474b;
 }*/
